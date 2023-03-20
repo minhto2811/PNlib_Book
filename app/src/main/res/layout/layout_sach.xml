@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:background="@color/l7"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/books" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ma_sach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ma Sach: 1"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv_ten_sach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten sach: naruto"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_gia_thue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gia thue: 10k"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_ma_loai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ma loai: 1"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_sua_sach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_sua" />
+
+    <ImageButton
+        android:id="@+id/btn_xoa_sach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_sua_sach"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_xoa" />
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PNlibrary</string>
+    <string name="nav_pm">Quản lí phiếu </string>
+    <string name="nav_ls">Quản lí loại sách</string>
+    <string name="nav_s">Quản lí sách</string>
+    <string name="nav_tv">Quản lí thành viên</string>
+    <string name="nav_10">10 Sách mượn nhiều nhất</string>
+    <string name="nav_dt">Doanh thu</string>
+    <string name="nav_mk">Đổi mật khẩu</string>
+    <string name="nav_dx">Đăng xuất</string>
+    <string name="nav_tk">Thống kê</string>
+    <string name="nav_nd">Người dùng</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="nguyen_van_a">Nguyen Van A</string>
+    <string name="pnlib">PNlib</string>
+    <string name="ng_nh_p_v_i_t_c_ch">Đăng nhập với tư cách</string>
+    <string name="admin">Admin</string>
+    <string name="th_th">Thủ thư</string>
+    <string name="ng_nh_p_v_i_t_c_ch_admin">Đăng nhập với tư cách Admin</string>
+    <string name="login">Login</string>
+    <string name="nh_p_t_i_kho_n">Nhập tài khoản</string>
+    <string name="nh_p_m_t_kh_u">Nhập mật khẩu</string>
+    <string name="ghi_nh_m_t_kh_u">Ghi nhớ mật khẩu</string>
+    <string name="ng_nh_p">Đăng nhập</string>
+    <string name="ng_nh_p_v_i_t_c_ch_kh_c">Đăng nhập với tư cách khác</string>
+    <string name="todo">TODO</string>
+    <string name="ng_nh_p_v_i_t_c_ch_th_th">Đăng nhập với tư cách thủ thư</string>
+    <string name="th_ng_k_doanh_thu">Thống kê doanh thu</string>
+    <string name="nh_p_ng_y_b_t_u">Nhập ngày bắt đầu</string>
+    <string name="nh_p_ng_y_k_t_th_c">Nhập ngày kết thúc</string>
+    <string name="t_m">Tìm</string>
+    <string name="hi_n_th_k_t_qu_t_m_ki_m">Hiển thị kết quả tìm kiếm</string>
+    <string name="null1">NULL</string>
+</resources>

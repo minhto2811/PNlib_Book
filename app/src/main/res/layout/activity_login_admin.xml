@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login1"
+    tools:context="minhtvph26873.poly.pnlib.LoginAdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black2"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/font_login"
+            android:shadowColor="@color/white"
+            android:shadowRadius="@integer/material_motion_duration_long_1"
+            android:text="@string/pnlib"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/l1"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ng_nh_p_v_i_t_c_ch_admin"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:shadowColor="@android:color/holo_blue_light"
+            android:shadowRadius="@integer/material_motion_duration_medium_1"
+            android:text="@string/login"
+            android:textColor="@color/l3"
+            android:textSize="44sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_user"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/nh_p_t_i_kho_n"
+            app:startIconDrawable="@drawable/ic_user"
+            app:startIconTint="@color/l1"
+            android:background="@drawable/bg_rounded_input_field"
+            >
+
+            <EditText
+                android:id="@+id/edt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:inputType="text"
+                android:maxLines="1"
+                android:autofillHints=""
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_pass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/nh_p_m_t_kh_u"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_pass"
+            app:startIconTint="@color/l1"
+            android:background="@drawable/bg_rounded_input_field">
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/chk_ghi_nho"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ghi_nh_m_t_kh_u"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_loginA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/l3"
+            android:text="@string/ng_nh_p"
+            android:textAllCaps="false" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/ng_nh_p_v_i_t_c_ch_kh_c"
+            android:textColor="@color/pink" />
+
+        <ImageButton
+            android:id="@+id/btn_changeAccount"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_change"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

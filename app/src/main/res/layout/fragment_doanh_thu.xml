@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="minhtvph26873.poly.pnlib.fragment.DoanhThuFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/img_dt"
+            android:layout_width="124sp"
+            android:layout_height="124sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/img_doanhthu"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_dt"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:shadowColor="@color/white"
+                android:shadowRadius="@integer/material_motion_duration_medium_2"
+                android:text="@string/th_ng_k_doanh_thu"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_ngay_bat_dau"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="multiply"
+                android:hint="@string/nh_p_ng_y_b_t_u"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:maxLength="10"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/edt_ngay_ket_thuc"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="multiply"
+                android:hint="@string/nh_p_ng_y_k_t_th_c"
+                android:importantForAutofill="no"
+                android:inputType="date"
+                android:maxLength="10"
+                android:maxLines="1" />
+
+            <Button
+                android:id="@+id/btn_tim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/pink"
+                android:text="@string/t_m"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/tv_label_ket_qua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/hi_n_th_k_t_qu_t_m_ki_m" />
+
+            <TextView
+                android:id="@+id/tv_ket_qua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/null1"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/lv_lich_su_thong_ke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

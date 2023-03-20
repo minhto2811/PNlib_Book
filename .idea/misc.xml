@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/activity_login_admin.xml" value="0.1" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/activity_login_guest.xml" value="0.1" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.1" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_loai_sach.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_mat_khau.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_phieu_muon.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_sach.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_thanh_vien.xml" value="0.2" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_thu_thu.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/fragment_top10.xml" value="0.1" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_add_loai_sach.xml" value="0.20427350427350427" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_add_phieu_muon.xml" value="0.1" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_add_sach.xml" value="0.264" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_add_thanh_vien.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_add_thu_thu.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_edi_phieu_muon.xml" value="0.264" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_edit_loai_sach.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_edit_sach.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_edit_thanh.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_edit_thanh_vien.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_edit_thu_thu.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_header.xml" value="0.2359375" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_loai_sach.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_phieu_muon.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_sach.xml" value="0.25" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_thanh_vien.xml" value="0.264" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_thu_thu.xml" value="0.24895833333333334" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/layout/layout_top10_sach.xml" value="0.1" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/menu/activity_main_drawer.xml" value="0.10989583333333333" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/menu/main_activity3.xml" value="0.10989583333333333" />
+        <entry key="..\:/MOB2041/PNlib/app/src/main/res/menu/menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

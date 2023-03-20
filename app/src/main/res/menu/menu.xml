@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item android:id="@+id/item_pm"
+              android:title="@string/nav_pm"
+              android:icon="@drawable/ic_pm"/>
+        <item android:id="@+id/item_ls"
+            android:title="@string/nav_ls"
+            android:icon="@drawable/ic_ls"/>
+        <item android:id="@+id/item_s"
+            android:title="@string/nav_s"
+            android:icon="@drawable/ic_s"/>
+        <item android:id="@+id/item_tv"
+            android:title="@string/nav_tv"
+            android:icon="@drawable/ic_tv"/>
+    <item android:id="@+id/item_tt"
+          android:icon="@drawable/ic_tv"
+            android:title="Quản lí thủ thư"/>
+
+
+        <item android:title="@string/nav_tk">
+            <menu>
+                <item android:id="@+id/item_10"
+                    android:title="@string/nav_10"
+                    android:icon="@drawable/ic_10"/>
+                <item android:id="@+id/item_dt"
+                    android:title="@string/nav_dt"
+                    android:icon="@drawable/ic_dt"/>
+            </menu>
+        </item>
+
+        <item android:title="@string/nav_nd">
+            <menu>
+                <item android:id="@+id/item_mk"
+                    android:title="@string/nav_mk"
+                    android:icon="@drawable/ic_mk"/>
+                <item android:id="@+id/item_dx"
+                    android:title="@string/nav_dx"
+                    android:icon="@drawable/ic_dx"/>
+            </menu>
+        </item>
+
+</menu>

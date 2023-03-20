@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pink1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/tv_chon_ma_thu_thu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn mã thủ thư" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_matt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/tv_chon_ma_thanh_vien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Chọn mã thành viên" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_matv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/tv_chon_ma_sach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Chọn mã sách" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_masach"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/tv_ngay"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:text="Ngày tạo: 24/07/2022"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Chọn trạng thái (1 đã trả, 0 chưa trả)" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_trangthai"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="15dp" />
+
+    <TextView
+        android:id="@+id/tv_gia_thue_phieu_muon"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="Giá thuê:"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_thempm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:text="Thêm"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

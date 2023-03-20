@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/pink1"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thay đổi mã thủ thư" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_sua_ma_thu_thu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Thay đổi mã thành viên" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_sua_ma_thanh_vien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Thay đổi mã sách" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_sua_ma_sach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Thay đổi trạng thái" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_sua_tra_sach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/tv_sua_tien_thue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Tiền thuê: 7K"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_sua_phieu_muon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Sửa"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

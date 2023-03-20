@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@color/pink1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edt_ten_sach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sách"
+        android:inputType="textCapSentences"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/edt_gia_thue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá thuê"
+        android:inputType="numberDecimal"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/tv_chon_ma_loai_sach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn mã loại sách" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_ma_loai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_them_sach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Thêm"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
